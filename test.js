@@ -14,7 +14,7 @@ var regex = {
 };
 
 let params = new URLSearchParams(location.search);
-let id = params.get("f") ? params.get('f') : 21;
+let id = params.get("f") ? params.get('f') : 4598;
 console.log(id);
 httpGetAsync("https://jsonp.afeld.me/?url=https://www.fxp.co.il/forumdisplay.php?f="+id+"&pp=200",httpGetFunction)
 //PUBLISHERS
